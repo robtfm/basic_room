@@ -847,8 +847,7 @@ checksum = "57bcfdad1b858c2db7c38303a6d2ad4dfaf5eb53dfeb0910128b2c26d6158503"
 [[package]]
 name = "livekit"
 version = "0.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ce2924520bf9d2c5416a33a939ba8dc8aba21f5606f40023a90143e2526a2b54"
+source = "git+https://github.com/livekit/client-sdk-rust#91affa5ed2f73f64719c7a4f990a0c776a73d83e"
 dependencies = [
  "futures-util",
  "lazy_static",
@@ -867,8 +866,7 @@ dependencies = [
 [[package]]
 name = "livekit-api"
 version = "0.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "71594d79e5442b7ecb46c0b4652420af1067754797774be5327b506031a32154"
+source = "git+https://github.com/livekit/client-sdk-rust#91affa5ed2f73f64719c7a4f990a0c776a73d83e"
 dependencies = [
  "futures-util",
  "livekit-protocol",
@@ -888,8 +886,7 @@ dependencies = [
 [[package]]
 name = "livekit-protocol"
 version = "0.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7a39ead34acc1e6b859344e6496d0cb9914e940f680a6e122f5262c5dda7ee6d"
+source = "git+https://github.com/livekit/client-sdk-rust#91affa5ed2f73f64719c7a4f990a0c776a73d83e"
 dependencies = [
  "futures-util",
  "parking_lot",
@@ -905,8 +902,7 @@ dependencies = [
 [[package]]
 name = "livekit-webrtc"
 version = "0.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1edeb13e673585616479245fbdc82bc9797294fadc6566790dc1e63e8321a076"
+source = "git+https://github.com/livekit/client-sdk-rust#91affa5ed2f73f64719c7a4f990a0c776a73d83e"
 dependencies = [
  "cxx",
  "futures",
@@ -2051,8 +2047,7 @@ dependencies = [
 [[package]]
 name = "webrtc-sys"
 version = "0.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b4823f22009fec382142d9ab29507bca272d7096f243a8b0c0545d228fe945f3"
+source = "git+https://github.com/livekit/client-sdk-rust#91affa5ed2f73f64719c7a4f990a0c776a73d83e"
 dependencies = [
  "cc",
  "cxx",
@@ -2065,8 +2060,7 @@ dependencies = [
 [[package]]
 name = "webrtc-sys-build"
 version = "0.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2b5c3fa435743777ffc7bfae4c927e5c8291e5da2e5f0cadd0bc38599672a9ea"
+source = "git+https://github.com/livekit/client-sdk-rust#91affa5ed2f73f64719c7a4f990a0c776a73d83e"
 dependencies = [
  "fs2",
  "regex",

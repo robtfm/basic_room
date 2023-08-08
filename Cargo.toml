@@ -6,5 +6,5 @@ edition = "2021"
 [dependencies]
 tokio = { version = "1", features = ["full"] }
 env_logger = "0.10"
-livekit = { version = "0.2.0", features = ["native-tls"]}
+livekit = { git="https://github.com/livekit/client-sdk-rust", features = ["native-tls"] }
 log = "0.4"
